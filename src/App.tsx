@@ -149,7 +149,7 @@ function HomePage() {
       <div className="flex-1 flex items-center justify-center p-4">
         <div className="w-full max-w-sm">
           {/* Headline */}
-          <h1 className="text-4xl md:text-5xl font-black text-blue-600 text-center mb-8 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-black text-red-600 text-center mb-8 leading-tight">
             {customizationData.headline}
           </h1>
           
@@ -179,7 +179,7 @@ function HomePage() {
           
           {/* Video warning block */}
           <div className="mt-6 max-w-sm mx-auto">
-            <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+            <div className="bg-red-50 border border-red-300 rounded-lg p-4">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
                   <svg className="w-5 h-5 text-red-400 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -220,12 +220,12 @@ function HomePage() {
       
       {/* Guarantee Block */}
       {showDTC && (
-        <div className="bg-blue-50 py-12">
+        <div className="bg-red-50 py-12">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-8">
             {/* Guarantee Icon */}
             <div className="flex-shrink-0">
-              <div className="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center">
+              <div className="w-24 h-24 bg-red-600 rounded-full flex items-center justify-center">
                 <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
@@ -237,7 +237,7 @@ function HomePage() {
               <h3 className="text-3xl font-bold text-gray-900 mb-2">
                 {customizationData.guaranteeTitle}
               </h3>
-              <p className="text-xl text-blue-600 font-semibold mb-4">
+              <p className="text-xl text-red-600 font-semibold mb-4">
                 {customizationData.guaranteeSubtitle}
               </p>
               <p className="text-gray-700 leading-relaxed">
