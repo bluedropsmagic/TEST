@@ -208,10 +208,10 @@ const Presell: React.FC = () => {
             <p className="text-lg mb-6 opacity-90">
               See all the research details and learn how to access the treatment
             </p>
-            
+
             <button
               onClick={handleContinueToOffer}
-              className="inline-block bg-white text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-200 transform hover:scale-105 shadow-lg text-lg"
+              className="inline-block bg-white text-red-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-200 transform hover:scale-105 shadow-lg text-lg"
             >
               View Complete Study
             </button>

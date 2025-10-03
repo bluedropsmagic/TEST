@@ -124,7 +124,7 @@ const Downsell1: React.FC = () => {
               <div className="space-y-3">
                 <button
                   onClick={handleAcceptOffer}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold py-4 px-6 rounded-lg hover:from-orange-600 hover:to-red-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+                  className="w-full bg-gradient-to-r from-red-500 to-red-600 text-white font-bold py-4 px-6 rounded-lg hover:from-red-600 hover:to-red-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
                 >
                   YES! I Want to Take This Offer
                 </button>

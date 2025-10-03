@@ -123,7 +123,7 @@ const Upsell1: React.FC = () => {
               <div className="space-y-3">
                 <button
                   onClick={handleAcceptOffer}
-                  className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white font-bold py-4 px-6 rounded-lg hover:from-green-600 hover:to-green-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
+                  className="w-full bg-gradient-to-r from-red-500 to-red-600 text-white font-bold py-4 px-6 rounded-lg hover:from-red-600 hover:to-red-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
                 >
                   YES! I Want to Maximize My Results
                 </button>
