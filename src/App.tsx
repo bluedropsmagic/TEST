@@ -29,7 +29,7 @@ interface CustomizationData {
 }
 
 const defaultCustomizationData: CustomizationData = {
-  headline: "your headline here",
+  headline: "Salt Cures Impotence",
   videoPlaceholderText: "Video will be added here",
   audioWarningTitle: "Please make sure your sound is on",
   audioWarningSubtitle: "This video contains important audio information",
